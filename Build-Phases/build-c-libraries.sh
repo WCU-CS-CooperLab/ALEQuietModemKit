@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+export PATH=/opt/homebrew/bin:$PATH
+
 ABSPATH=$SRCROOT
 SRCPATH=$SRCROOT
 SYSROOTPATH="$BUILT_PRODUCTS_DIR/sysroot"
